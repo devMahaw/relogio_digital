@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const u=document.querySelector(".hours"),c=document.querySelector(".minutes"),r=document.querySelector(".seconds");setInterval(function(){var e=new Date;let t=e.getHours(),n=e.getMinutes(),o=e.getSeconds();t<10&&(t="0"+t),n<10&&(n="0"+n),o<10&&(o="0"+o),u.textContent=t,c.textContent=n,r.textContent=o})});
